@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-color: #f5f5f5;
+}
+
+.cabecalho-superior {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 20%;
+    justify-content: space-between;
+    background-image: url("imagem-fundo-menu.png");
+    background-size: cover;
+}
+
+.cabecalho-logo{
+    margin-left: 30px;
+}
+
+.cabecalho-superior-item-menu {
+    display: flex;
+    gap: 36px;
+    margin: 30px;
+}
+
+.opcoes-servicos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.opcao-servico {
+    text-align: center;
+}
+
+.opcao-servico img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.opcao-servico h2 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.cabecalho-menu-item{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+.cabecalho-menu-item{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 2px;
+    background: #18301E;
+  }
+  
+.cabecalho-menu-item a{
+    font-family: 'Montserrat', sans-serif;
+    color: #F8F8F8;
+    font-weight: 300;
+    display: flex;
+    text-decoration: none;
+  }
+  
+.cabecalho-menu-item a:hover {
+    background-color: #18301e00;
+    border-radius: 4px;
+    width: 80px; /* Define a largura do botão */
+    height: 10px; /* Define a altura do botão */
+  } 
+
+  body {
+    font-family: 'Montserrat', sans-serif;
+    color: #18301E;
+}
+
+h1 {
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 30px;
+}
+
+.destinos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 28px;
+}
+
+.destino {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.destino img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.destination-info {
+    flex: 1;
+}
+
+.link{
+    color: #18301E;
+}
+
+.link a:hover{
+    background-color: #f5f5f5;
+}

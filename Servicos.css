@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-color: #f5f5f5;
+}
+
+.cabecalho-superior {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 20%;
+    justify-content: space-between;
+    background-image: url("imagem-fundo-menu.png");
+    background-size: cover;
+}
+
+.cabecalho-logo{
+    margin-left: 30px;
+}
+
+.cabecalho-superior-item-menu {
+    display: flex;
+    gap: 36px;
+    margin: 30px;
+}
+
+.cabecalho-menu-item{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+.cabecalho-menu-item{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 2px;
+    background: #18301E;
+  }
+  
+.cabecalho-menu-item a{
+    font-family: 'Montserrat', sans-serif;
+    color: #F8F8F8;
+    font-weight: 300;
+    display: flex;
+    text-decoration: none;
+  }
+  
+.cabecalho-menu-item a:hover {
+    background-color: #18301e00;
+    border-radius: 4px;
+    width: 80px; /* Define a largura do botão */
+    height: 10px; /* Define a altura do botão */
+  }
+  
+.conteudo {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 40px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #18301E;
+    font-weight: bold;
+}
+
+.opcoes-servicos{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 20px;
+}
+
+.texto-servico{
+    background-color: #18301e00;
+    color: #18301E;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 400px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.opcao-servico img {
+    width: 210px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.opcao-servico{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
